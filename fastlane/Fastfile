@@ -97,17 +97,17 @@ platform :ios do
   end
 
   after_all do |lane|
-    telegram(
-        url_horn: ENV["TELEGRAM_WEBHOOKS"],
-        message: $lane_active + " Fastlane is OK"
-    )
+    # telegram(
+    #     url_horn: ENV["TELEGRAM_WEBHOOKS"],
+    #     message: $lane_active + " Fastlane is OK"
+    # )
   end
 
   error do |lane, exception|
-    telegram(
-        url_horn: ENV["TELEGRAM_WEBHOOKS"],
-        message: "`ERROR` " + $lane_active + " Fastlane FAIL"
-    )
+    # telegram(
+    #     url_horn: ENV["TELEGRAM_WEBHOOKS"],
+    #     message: "`ERROR` " + $lane_active + " Fastlane FAIL"
+    # )
   end
 end
 
