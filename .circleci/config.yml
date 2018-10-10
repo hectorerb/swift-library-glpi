@@ -143,7 +143,7 @@ jobs:
       - *release_app
       - *store_ipa
       - *keychain_remove
-      - *pod_trunk
+      # - *pod_trunk
 
   update_cache:
     <<: *container_config
