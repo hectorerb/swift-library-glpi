@@ -1,8 +1,8 @@
 {
   "name": "@teclib/ios-library-glpi",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "GLPI APIs Client Library for Swift for REST",
-  "homepage": "https://github.com/glpi-project/swift-library-glpi#readme",
+  "homepage": "https://github.com/hectorerb/swift-library-glpi#readme",
   "main": "index.js",
   "scripts": {
     "release": "yarn standard-version"
@@ -39,15 +39,15 @@
     "**/.*"
   ],
   "source": {
-    "git": "https://github.com/glpi-project/swift-library-glpi.git",
+    "git": "https://github.com/hectorerb/swift-library-glpi.git",
     "tag": "1.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glpi-project/swift-library-glpi.git"
+    "url": "git+https://github.com/hectorerb/swift-library-glpi.git"
   },
   "bugs": {
-    "url": "https://github.com/glpi-project/swift-library-glpi/issues"
+    "url": "https://github.com/hectorerb/swift-library-glpi/issues"
   },
   "private": true,
   "devDependencies": {
